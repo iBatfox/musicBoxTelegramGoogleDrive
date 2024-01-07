@@ -8,11 +8,11 @@ from googleapiclient import http as googleapiclient
 # Параметры Google Диска
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
 SERVICE_ACCOUNT_FILE = 'credentials.json'  # Укажите путь к файлу учетных данных
-FOLDER_ID = '1DY65saVpCSrFo505hkkEQbESSWk3exCs'  # ID папки с музыкой на Google Диске
+FOLDER_ID = 'you ID Google drive'  # ID папки с музыкой на Google Диске
 
 # Параметры Telegram бота
-TELEGRAM_TOKEN = '6524739739:AAFlJtJcQLeQPttPZ6EYgWE8juVpfbWhUgE'
-GROUP_ID = -1002043738628 # ID вашей группы в Telegram (можно узнать, например, через бота @userinfobot)
+TELEGRAM_TOKEN = 'bot token'
+GROUP_ID = ID group # ID вашей группы в Telegram (можно узнать, например, через бота @userinfobot)
 
 async def download_music_from_drive():
     print("Downloading music from Google Drive...")
